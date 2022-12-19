@@ -1,0 +1,9 @@
+test:
+  prototype-val: "Test hello world"
+
+server:
+  port: ${SERVER_PORT_SPRING:8080}
+
+spring:
+  jackson:
+    default-property-inclusion: NON_NULL
